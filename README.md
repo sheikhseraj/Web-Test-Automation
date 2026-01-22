@@ -1,1 +1,1 @@
-# pythoncode
+print("wassup Buddy!! v6")
