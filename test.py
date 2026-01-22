@@ -1,1 +1,1 @@
-print("wassup Buddy")
+print("I love You AYAT")
