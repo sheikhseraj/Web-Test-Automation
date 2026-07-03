@@ -1,0 +1,28 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebAPIPart1.spec.js --headed",
+    "regression": "npx playwright test",
+    "JenineTests": "npx playwright test tests/ClientAppPO.spec.js",
+    "WebTests": "npx playwright test --grep @Web",
+    "APITests": "npx playwright test --grep @API",
+    "SafariNewConfig": "npx playwright test --config playwright.config.js --project=safari"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.5",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.3.3",
+    "allure-playwright": "^3.8.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
